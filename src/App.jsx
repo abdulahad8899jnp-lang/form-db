@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import cors from "cors";
+app.use(cors());
 function App() {
 
   const [name, setName] = useState("");
