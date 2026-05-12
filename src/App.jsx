@@ -12,7 +12,7 @@ function App() {
     try {
 
       const res = await fetch(
-        "https://form-backend-bnzq.onrender.com",
+        "https://form-backend-bnzq.onrender.com/api/save",
         {
           method: "POST",
           headers: {
