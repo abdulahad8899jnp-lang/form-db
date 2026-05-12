@@ -12,7 +12,7 @@ function App() {
     try {
 
       const res = await fetch(
-        "https://github.com/abdulahad8899jnp-lang/form-backend",
+        "https://form-backend-bnzq.onrender.com",
         {
           method: "POST",
           headers: {
